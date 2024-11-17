@@ -2,3 +2,33 @@
     width: 80%;
     margin-bottom: 10px;
 }
+
+.todoCard {
+    position: relative;
+    display: inline-block;
+}
+
+.textareaWrapper {
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.task {
+    width: 100%;
+    padding-right: 40px; /* Laisser de l'espace pour l'icÃ´ne */
+    box-sizing: border-box; /* Assure un bon dimensionnement */
+
+}
+
+.delBtn {
+    position: absolute;
+    bottom: 10px; /* Ajuster selon vos besoins */
+    right: 10px; /* Ajuster selon vos besoins */
+    cursor: pointer;
+    color: gray;
+}
+
+.delBtn:hover {
+    color: red; /* Changement de couleur au survol */
+}
